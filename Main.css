@@ -62,7 +62,7 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
-@media (max-width: 1080px) {
+/* @media (max-width: 1080px) {
     body {
         font-size: 14px;
         background-color: #d0f0d0;
@@ -82,7 +82,7 @@
     height: 150px;
     justify-content: space-between;
     position: relative;
-    /* left: 170px; */
+     left: 170px; 
     left: 230px;
 
 
@@ -111,7 +111,7 @@
     height: 720px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
+    align-items: center; 
     justify-content: center;
     position: relative;
     
@@ -163,3 +163,4 @@
     background-color: black;
     height: 2px;
 }
+*/
