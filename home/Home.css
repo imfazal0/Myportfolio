@@ -1,0 +1,64 @@
+.containar{
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: 1fr 1fr; */
+    height: 620px;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    margin-top: 50px;
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.First{
+    background-color: white;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    box-shadow: -10px 10px 10px rgba(0,0,0,0.5) ;
+    width: 420PX;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+}
+.First:hover{
+    cursor: pointer;
+    width: 450PX;
+    height: 100%;
+
+
+
+}
+.Second{
+    background-color: white;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    box-shadow: -10px 10px 10px rgba(0,0,0,0.5) ;
+    width: 420PX;
+    height: 100%;
+    display: grid;
+    padding: 20px;
+
+}
+.Third{
+    background-color: white;
+    border-radius: 20px;
+    /* border: 2px solid black; */
+    box-shadow: -10px 10px 10px rgba(0,0,0,0.5) ;
+    width: 420PX;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+
+}
+
+
+.First:hover, .Second:hover, .Third:hover {
+    flex-grow: 2; 
+    transform: scale(1.05); 
+    box-shadow: -10px 10px 60px rgba(0, 0, 0, 0.8); 
+    transition:transform 0.3s ease, flex-grow 0.3s ease;
+    cursor: pointer;
+}

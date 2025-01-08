@@ -1,0 +1,65 @@
+.Mtop1{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    z-index: 100;
+
+}
+.Top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-size: large;
+    
+}
+.toptext{
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+    font-weight: bold;
+    color: rgb(83,83,83);
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
+    /* justify-content:space-around; */
+    /* flex-direction: row; */
+    position: relative;
+    top: 30px;
+    height: 60px;
+    /* padding-top: z30px; */
+    padding-left: 10px;
+
+}
+.letstalk{
+    position: relative;
+    top: 40px;
+    left: 500px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: rgb(142, 7, 192);
+    color: aliceblue;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 12px;
+}
+.text{
+    width: 500PX;
+   position: relative;
+   left: 150px;
+}
+.backPng{
+    background-image: url(images/myPng.png);
+    width: 600px;
+    height: 650px;
+    z-index: 0;
+    position: relative;
+    left: 700px;
+    top: -500px;
+    size: 1200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+/*  */
