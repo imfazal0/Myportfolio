@@ -1,0 +1,85 @@
+body{
+    height: 100vh;
+    width: 100%;
+    padding: 20px;
+    /* overflow: hidden; */
+    background-color:#e4dcd1;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.container,
+.container2{
+    height: 90vh   ;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:yellowgreen;
+    
+}
+.first{
+    background-color: transparent;
+    /* border-bottom: 2px solid gray; */
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    justify-content: center;
+}
+
+
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: black; /* Add a text color if needed */
+    overflow: hidden; /* Ensures text doesn't overflow the container */
+    white-space: nowrap; /* Prevents text wrapping */
+    width: 0; /* Initial width for the typing effect */
+    border-right: 2px solid orange; /* Simulates the cursor */
+    animation: typing 3s steps(30, end) infinite, blink-caret 0.5s step-end 3s;
+    margin-right: 0;
+    padding-right: 0;
+    letter-spacing: 2px;
+}
+
+.p{
+    margin: 50px;
+    position: relative;
+    top: -50px;
+    left: -50px;
+    color: white;
+}
+.second{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.contaier2{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(32, 94, 85);
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: orange;
+    }
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%; /* Adjust as needed to fit your text */
+    }
+}
